@@ -1,0 +1,99 @@
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+  .header{
+      font-size: large;
+      color: #043d83;
+      font-weight: 600;
+  }
+
+
+  .dropdown-item{
+      color: black;
+  }
+
+  nav{
+      font-size: small;
+  }
+
+
+  .navbar-brand{
+      font-size: small;
+  }
+
+
+  .text-white{
+      font-size: small;
+  }
+
+
+  #footer-links{
+    font-size: small;
+    color: white;
+  }
+
+  nav{
+    background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+
+  .nav-link {
+    
+    font-weight: 600;
+    color: white !important;
+    font-size: 14px;
+    margin: 0px 20px;
+  }
+
+  footer{
+      background-color: #252729;
+  }
+
+
+  .large-pdf{
+      display: block;
+  }
+
+  .medium-pdf{
+    display: none;
+    }
+
+    .small-pdf{
+        display: none;
+        }
+
+
+@media (max-width:700px) {
+    .large-pdf{
+        display: none;
+    }
+
+    .medium-pdf{
+        display: block;
+    }
+
+    .small-pdf{
+        display: none;
+        }
+}
+
+
+@media (max-width:450px) {
+    .large-pdf{
+        display: none;
+    }
+
+    .medium-pdf{
+        display: none;
+    }
+
+    .small-pdf{
+        display: block;
+        }
+}
